@@ -1,6 +1,4 @@
 {
-  "name": "marinenotify",
-  "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -10,15 +8,39 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~43.0.2",
-    "expo-status-bar": "~1.1.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "expo": "~42.0.1",
+    "expo-status-bar": "~1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-web": "~0.13.12",
+    "dayjs": "*",
+    "firebase": "8.2.3",
+    "react-is": "^16.8.0",
+    "prop-types": "*",
+    "expo-constants": "~11.0.2",
+    "react-native-svg": "12.1.1",
+    "react-navigation": "4.4.4",
+    "styled-components": "*",
+    "@expo/vector-icons": "^12.0.0",
+    "react-native-paper": "4.9.2",
+    "react-native-screens": "~3.4.0",
+    "react-native-elements": "*",
+    "react-navigation-stack": "*",
+    "react-native-animatable": "*",
+    "@react-navigation/native": "*",
+    "react-native-gifted-chat": "*",
+    "react-native-vector-icons": "*",
+    "@react-navigation/elements": "*",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-linear-gradient": "*",
+    "react-native-typing-animation": "*",
+    "@react-navigation/native-stack": "*",
+    "react-native-safe-area-context": "3.2.0",
+    "@react-native-community/masked-view": "0.1.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.9.0"
   },
   "private": true
 }
